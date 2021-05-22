@@ -13,7 +13,6 @@ public class _027_RemoveElement {
         }
     }
 
-
     public static int removeElement(int[] nums, int val) {
         // 数组为空，新数组长度为0
         if (nums.length == 0)
