@@ -36,10 +36,10 @@ public class _026_RemoveDuplicate {
                 ret++;
             } else {
                 // 如果元素相同，则将数组从当前位置开始的所有元素向前移动一个位置
-                // 移动后指针i不移动，继续比较当前位置上的数与lastV是否重复
                 for (int j = i; j < nums.length - 1; j++) {
                     nums[j] = nums[j + 1];
                 }
+                // 移动后指针i不移动，继续比较当前位置上的数与lastV是否重复
                 i--;
             }
             // 如果当前值与数组的最大值相等，则跳出循环，避免死循环
