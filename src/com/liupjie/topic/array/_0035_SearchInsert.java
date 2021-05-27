@@ -1,6 +1,6 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
-public class _035_SearchInsert {
+public class _0035_SearchInsert {
 
     public static void main(String[] args) {
         int[] nums = {1, 3, 5, 7, 9, 11, 13};

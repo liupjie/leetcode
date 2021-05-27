@@ -1,9 +1,9 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class _001_TwoSum {
+public class _0001_TwoSum {
 
     public static void main(String[] args) {
         int[] nums = {3, 2, 4};

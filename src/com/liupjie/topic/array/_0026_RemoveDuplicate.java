@@ -1,6 +1,6 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
-public class _026_RemoveDuplicate {
+public class _0026_RemoveDuplicate {
 
     public static void main(String[] args) {
         int[] nums = {0,1,1};

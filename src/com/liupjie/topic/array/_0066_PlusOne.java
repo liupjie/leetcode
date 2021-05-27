@@ -1,6 +1,6 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
-public class _066_PlusOne {
+public class _0066_PlusOne {
 
     public static void main(String[] args) {
         int[] nums = {8,9,9};

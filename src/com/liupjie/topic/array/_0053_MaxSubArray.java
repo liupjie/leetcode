@@ -1,6 +1,6 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
-public class _053_MaxSubArray {
+public class _0053_MaxSubArray {
 
     public static void main(String[] args) {
         int[] nums = {-2,1,-3,4,-1,2,1,-5,4};

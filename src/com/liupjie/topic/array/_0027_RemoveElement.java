@@ -1,6 +1,6 @@
-package com.liupjie;
+package com.liupjie.topic.array;
 
-public class _027_RemoveElement {
+public class _0027_RemoveElement {
 
     public static void main(String[] args) {
         int[] nums = {0,1,2,2,3,0,4,2};
