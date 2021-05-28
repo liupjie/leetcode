@@ -12,11 +12,11 @@ public class _0119_GetRow {
 
     public static List<Integer> getRow(int rowIndex) {
         Integer[] nums = null;
-        for (int i = 0; i <= rowIndex; i++) {
+        for (int k = 0; k <= rowIndex; k++) {
             Integer[] lastNums = nums;
-            nums = new Integer[i + 1];
-            for (int j = 0; j < i + 1; j++) {
-                if (j == 0 || j == i) {
+            nums = new Integer[k + 1];
+            for (int j = 0; j < k + 1; j++) {
+                if (j == 0 || j == k) {
                     nums[j] = 1;
                 } else {
                     nums[j] = lastNums[j - 1] + lastNums[j];
@@ -29,9 +29,9 @@ public class _0119_GetRow {
     // 优化
     public static List<Integer> getRow1(int rowIndex) {
         Integer[] nums = new Integer[rowIndex + 1];
-        for (int i = 0; i <= rowIndex; i++) {
-            for (int j = i; j >= 0; j--) {
-                if (j == 0 || j == i) {
+        for (int k = 0; k <= rowIndex; k++) {
+            for (int j = k; j >= 0; j--) {
+                if (j == 0 || j == k) {
                     nums[j] = 1;
                 } else {
                     nums[j] = nums[j - 1] + nums[j];

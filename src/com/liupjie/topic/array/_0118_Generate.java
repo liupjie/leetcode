@@ -7,7 +7,7 @@ import java.util.List;
 public class _0118_Generate {
 
     public static void main(String[] args) {
-        List<List<Integer>> generate = generate(1);
+        List<List<Integer>> generate = generate(5);
         for (List<Integer> integers : generate) {
             System.out.println(integers);
         }
@@ -18,11 +18,11 @@ public class _0118_Generate {
         if (numRows == 0)
             return ret;
         Integer[] nums = null;
-        for (int i = 0; i < numRows; i++) {
+        for (int k = 1; k <= numRows; k++) {
             Integer[] lastNums = nums;
-            nums = new Integer[i + 1];
-            for (int j = 0; j < i + 1; j++) {
-                if (j == 0 || j == i) {
+            nums = new Integer[k];
+            for (int j = 0; j < k; j++) {
+                if (j == 0 || j == k - 1) {
                     nums[j] = 1;
                 } else {
                     nums[j] = lastNums[j - 1] + lastNums[j];
